@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy.exe http -t tcp -p "0.0.0.0:8090" -T wss -P "www.google.com:8443" –local-ws-method="chacha20-ietf-poly1305" –local-ws-password="tongluren1/goproxy"
+./proxy.exe http -t tcp -p "0.0.0.0:8090" -T wss -P "joetest01.herokuapp.com:8443" –local-ws-method="chacha20-ietf-poly1305" –local-ws-password="tongluren1/goproxy-heroku"
